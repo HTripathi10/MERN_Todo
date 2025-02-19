@@ -1,0 +1,100 @@
+.landing-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ebf4ff 0%, #f5f3ff 100%);
+}
+
+.landing-content {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-text {
+  max-width: 36rem;
+}
+
+.landing-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1a202c;
+  margin-bottom: 2rem;
+}
+
+.landing-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.landing-button-primary {
+  background-color: #1890ff;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.landing-button-primary:hover {
+  background-color: #096dd9;
+}
+
+.landing-button-secondary {
+  background-color: white;
+  color: #1890ff;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: 1px solid #1890ff;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.landing-button-secondary:hover {
+  background-color: #f8fafc;
+}
+
+.features-section {
+  width: 50%;
+  padding-left: 3rem;
+}
+
+.features-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.features-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 1rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #4a5568;
+}
+
+.feature-icon {
+  font-size: 1.25rem;
+}
+
+.feature-icon.check {
+  color: #10b981;
+}
+
+.feature-icon.calendar {
+  color: #3b82f6;
+}
+
+.feature-icon.team {
+  color: #8b5cf6;
+}
